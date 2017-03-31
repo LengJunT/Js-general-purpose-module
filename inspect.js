@@ -1,5 +1,5 @@
 //抽取通用的表单验证
-//LengJun 2017-3-16
+//LengJun 2017-3-31
 /*作用，对表单进行验证成功返回true
 *   参数设置：
 *       data-insp="" 定义需要做那些验证，字符串，用“,”分隔
@@ -10,7 +10,7 @@
 *           如果是一位，表示最小长度。“10”，表示最小长度是10
 *       data-tit="" 验证不通过的提示。
 *       如：
-*       <input type="text" name="n.tel" id="phoneNum" data-insp="unNull,length" data-length="3,3" data-tit="不能少於３"/>
+*       <input type="tel" name="n.tel" id="phoneNum" data-insp="unNull,length" data-length="3,3" data-tit="不能少於３"/>
 *   外部调用：
 *    var domID =[   传入需要验证的筛选条件。ID,class或者其他jquery筛选条件
 *         '#phoneNum','#name','#companyName'
